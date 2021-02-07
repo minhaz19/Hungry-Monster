@@ -1,0 +1,32 @@
+#allMeal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.meal img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.meal h4{
+    text-align: center;
+}
+#mealDetail{
+    display: flex;
+    justify-content: center;
+}
+.aboutMeal img{
+    width: 400px;
+}
+#error{
+   text-align: center;
+   font-size: 30px;
+   color: crimson;
+   background: darkkhaki;
+}
+#allMeal p{
+    text-align: center;
+    background: darksalmon;
+    font-size: 20px;
+}
