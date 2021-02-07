@@ -8,7 +8,10 @@
     font-size: 20px;
 }
 .meal{
-    background: rgb(250, 249, 249);
+    box-shadow: 10px 10px 20px gray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 .meal img{
     display: block;
@@ -16,12 +19,24 @@
     margin-right: auto;
     width: 50%;
 }
+.meal img:hover{
+    cursor: pointer;
+}
 .meal h4{
     text-align: center;
+}
+.meal h4:hover{
+    cursor: pointer;
 }
 #mealDetail{
     display: flex;
     justify-content: center;
+}
+.aboutMeal{
+    box-shadow: 10px 10px 20px gray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 .aboutMeal img{
     width: 300px;
